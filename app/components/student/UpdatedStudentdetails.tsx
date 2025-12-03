@@ -5,7 +5,7 @@ import { useParams } from "react-router-dom";
 import { useStudents } from "./StudentContext";
 import { img6 } from "~/utils/images/temp.image"; 
 
-export default function UpdatedStudentDetails() {
+export default function UpdatedStudentdetails() {
   const { id } = useParams();
   const { students } = useStudents();
 

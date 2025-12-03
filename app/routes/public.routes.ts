@@ -14,7 +14,7 @@ export const publicRoutes = [
   route("students", "components/pages/Students.tsx", [
     index("components/student/StudentList.tsx"),
     route(":id", "components/student/StudentDetails.tsx"),
-    route(":id/details", "components/student/UpdatedStudentDetails.tsx"),
+    route(":id/details", "components/student/UpdatedStudentdetails.tsx"),
   ]),
 
   route("classes", "components/pages/Classes.tsx", [
